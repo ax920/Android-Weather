@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:text="The weather in houston is:"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <TextView
+        android:text="place"
+        android:layout_width="180dp"
+        android:layout_height="29dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="222dp"
+        android:id="@+id/temperature"
+        />
+
+</android.support.constraint.ConstraintLayout>
